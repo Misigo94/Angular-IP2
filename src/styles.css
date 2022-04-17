@@ -1,7 +1,4 @@
 @import "~bootstrap/dist/css/bootstrap.css";
-
-body {
-    /* background-image: url("../src/assets/background.avif"); */
-    background-image: linear-gradient(to left,#2b0668,#6409AC);
-    
-}
+/* body{
+    background-image: url("../src/assets/background.avif");
+} */
