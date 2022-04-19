@@ -1,3 +1,19 @@
-#navbar{
-    background-color: rgba(30, 5, 50, 0.51);
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top:px;
+    background-color:rgb(24, 4, 53);
+    opacity: 0.8;
+    padding: 25px;
+}
+
+a {
+    color: #E0AC7C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E0AC7C;
 }
