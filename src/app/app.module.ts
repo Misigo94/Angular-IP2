@@ -9,6 +9,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FormComponent } from './form/form.component';
 import { BodyComponent } from './body/body.component';
 import { LandingComponent } from './landing/landing.component';
+import { PipePipe } from './pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LandingComponent } from './landing/landing.component';
     FormComponent,
     BodyComponent,
     LandingComponent,
+    PipePipe,
   ],
   imports: [
     BrowserModule,
