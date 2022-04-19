@@ -10,6 +10,7 @@ import { GitService } from '../git.service';
 export class FormComponent implements OnInit {
   userInput: string = "";
   user: any;
+  
 
   constructor(private gitservice:GitService) { }
 

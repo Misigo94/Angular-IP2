@@ -27,3 +27,7 @@ export class RepoService {
     //     .catch((error) => console.log(error));
     // }
   }
+  function getRepo(reponame: any, any: any) {
+    throw new Error('Function not implemented.');
+  }
+
