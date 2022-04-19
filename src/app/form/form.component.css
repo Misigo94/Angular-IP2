@@ -1,5 +1,8 @@
-.container{
-    background-color:#465899;
-    opacity:0.9;
-
+.form-control{
+    width:45%;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 10px;
+    background-color:#170535;
+    color:white
 }
