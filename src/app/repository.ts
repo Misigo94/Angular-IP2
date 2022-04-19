@@ -1,15 +1,9 @@
 export class Repository {
-    public display:boolean
     constructor(
-        public description: string,
-        public name: string,
-        public forks: number,
-        public watching: number,
-        public languages: string,
-        public url: string,
-        public stars:number
-    ) {
-        this.display = true;
+        public name: string, public full_name: string, public description: string, public updated_at:Date, public html_url: string, public clone_url: string, public language: string, public created_at:Date){}
+}
+     {
+        
 }
 
-}
+
