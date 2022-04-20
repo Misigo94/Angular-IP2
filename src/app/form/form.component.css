@@ -1,12 +1,15 @@
 .form-control{
     width:45%;
-    margin: auto;
+    margin-left:30%;
     margin-top: 15px;
     padding-left: 10px;
     background-color:#170535;
     color:white
 }
+.btn .btn-outline-success{
+    margin-top: 10px;
+}
 .card-text{
-    background-color: rgb(20, 9, 31);
+    background-color: rgb(70, 20, 119);
     color:white;
 }
