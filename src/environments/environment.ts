@@ -15,3 +15,10 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+
+
+// DEPLOY IN ORDER
+// 1. $ng build --base-href "https://misigo94.github.io/Angular-IP2/" 
+// 2. $ npx angular-cli-ghpages --dir=dist/ip2
+

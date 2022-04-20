@@ -8,13 +8,13 @@ import { Repository } from './repository';
   providedIn: 'root'
 })
 export class RepoService {
-  repository:Repository; 
-	repoData = [];
+  repository: Repository;
+  repoData = [];
   newUserData: any = [];
  
 
   constructor(private http: HttpClient) {
-   this.repository = new Repository("","","",new Date(),"","","",new Date())
+    this.repository = new Repository("", "", "", new Date(), "", "", "", new Date())
   }
   getUserData(username: string) {
 
@@ -27,7 +27,8 @@ export class RepoService {
     //     .catch((error) => console.log(error));
     // }
   }
-  function getRepo(reponame: any, any: any) {
+  getRepo(reponame: any, any: any) {
     throw new Error('Function not implemented.');
   }
+}
 
